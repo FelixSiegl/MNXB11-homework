@@ -1,3 +1,29 @@
 # MNXB11 fairytale
 
-Once upon a time there was an **evil** _which_ and everyone was afraid of her
+Once upon a time there was an **evil** _witch_ and everyone was afraid of her
+
+```
+                                    __,,,
+                                 _.--'    /
+                              .-'        /
+                            .'          |
+                          .'           /
+                         /_____________|
+                       /`~~~~~~~~~~~~~~/
+                     /`               /
+      ____,....----'/_________________|---....,___
+,--""`             `~~~~~~~~~~~~~~~~~~`           `""--,
+`'----------------.----,------------------------,-------'`
+               _,'.--. \                         \
+             .'  (o   ) \                        |
+            c   , '--'  |                        /
+           /    )'-.    \                       /
+          |  .-;        \                       |
+          \_/  |___,'    |                    .-'
+         .---.___|_      |                   /
+        (          `     |               .--'
+         '.         __,-'\             .'
+           `'-----'`      \        __.'
+                      jgs  `-..--'`
+```
+Credit: <https://ascii.co.uk/art/witch>
