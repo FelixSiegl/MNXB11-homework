@@ -1,0 +1,83 @@
+Only in /home/felixsi: .apptainer
+Only in /home/felixsi: .bash_history
+diff -y /etc/skel/.bash_logout /home/felixsi/.bash_logout
+# ~/.bash_logout						# ~/.bash_logout
+
+diff -y /etc/skel/.bash_profile /home/felixsi/.bash_profile
+# .bash_profile							# .bash_profile
+
+# Get the aliases and functions					# Get the aliases and functions
+if [ -f ~/.bashrc ]; then					if [ -f ~/.bashrc ]; then
+	. ~/.bashrc							. ~/.bashrc
+fi							      |	fi 
+							      >
+							      >	export PATH="/projects/hep/fs10/mnxb11/bin:$PATH"
+
+# User specific environment and startup programs		# User specific environment and startup programs
+							      >
+diff -y /etc/skel/.bashrc /home/felixsi/.bashrc
+# .bashrc							# .bashrc
+
+# Source global definitions					# Source global definitions
+if [ -f /etc/bashrc ]; then					if [ -f /etc/bashrc ]; then
+	. /etc/bashrc							. /etc/bashrc
+fi								fi
+
+# User specific environment					# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]		if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then								then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"			    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi								fi
+export PATH							export PATH
+
+# Uncomment the following line if you don't like systemctl's 	# Uncomment the following line if you don't like systemctl's 
+# export SYSTEMD_PAGER=						# export SYSTEMD_PAGER=
+
+# User specific aliases and functions				# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then					if [ -d ~/.bashrc.d ]; then
+	for rc in ~/.bashrc.d/*; do					for rc in ~/.bashrc.d/*; do
+		if [ -f "$rc" ]; then						if [ -f "$rc" ]; then
+			. "$rc"								. "$rc"
+		fi								fi
+	done								done
+fi								fi
+
+unset rc							unset rc
+Only in /home/felixsi: .cache
+Only in /home/felixsi: .config
+diff -y /etc/skel/.emacs /home/felixsi/.emacs
+;; .emacs							;; .emacs
+
+(custom-set-variables						(custom-set-variables
+ ;; uncomment to always end a file with a newline		 ;; uncomment to always end a file with a newline
+ ;'(require-final-newline t)					 ;'(require-final-newline t)
+ ;; uncomment to disable loading of "default.el" at startup	 ;; uncomment to disable loading of "default.el" at startup
+ ;'(inhibit-default-init t)					 ;'(inhibit-default-init t)
+ ;; default to unified diffs					 ;; default to unified diffs
+ '(diff-switches "-u"))						 '(diff-switches "-u"))
+
+;;; uncomment for CJK utf-8 support for non-Asian users		;;; uncomment for CJK utf-8 support for non-Asian users
+;; (require 'un-define)						;; (require 'un-define)
+Only in /home/felixsi: .gitconfig
+Only in /home/felixsi: .lesshst
+Only in /home/felixsi: .local
+Only in /home/felixsi: .mozilla
+Only in /home/felixsi: .nv
+Only in /home/felixsi: .pki
+Only in /home/felixsi: .root_hist
+Only in /home/felixsi: .ssh
+Only in /home/felixsi: .vscode
+Only in /home/felixsi: Desktop
+Only in /home/felixsi: Documents
+Only in /home/felixsi: Downloads
+Only in /home/felixsi: Music
+Only in /home/felixsi: Pictures
+Only in /home/felixsi: Public
+Only in /home/felixsi: TOP-MNXB11
+Only in /home/felixsi: Templates
+Only in /home/felixsi: VS_Code_Files
+Only in /home/felixsi: Videos
+Only in /home/felixsi: felix_siegl_homework3.tgz
+Only in /home/felixsi: git
+Only in /home/felixsi: shortlist.txt
+Only in /home/felixsi: tarball-test
